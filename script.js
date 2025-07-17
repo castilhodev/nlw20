@@ -105,7 +105,6 @@ function generateMetaPrompt(game, question) {
 
 
 const perguntarAI = async (question, game, apiKey) => {
-   //AIzaSyCLBpG0NVjhNojJChrYlR3PzuUnIsJvGfw
    const model = "gemini-2.5-flash"
    const geminiURL = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`
 
